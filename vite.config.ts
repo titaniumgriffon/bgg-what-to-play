@@ -10,7 +10,7 @@ import svgr from "vite-plugin-svgr";
  * @see https://vitest.dev/config/
  */
 export default defineConfig({
-  base: "/bgg-what-to-play/",
+  base: "/",
   plugins: [react(), svgr()],
   resolve: {
     alias: {
